@@ -11,7 +11,6 @@ print(request.get_status_code())
 parser = pa(request.html_text())
 
 parser.find_by_code('840')
-parser.get_course()
 
 Notify.init("Pekaby App")
 
