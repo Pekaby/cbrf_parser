@@ -43,6 +43,3 @@ class pa:
     
     def get_name(self):
         return self.name
-
-    def test(self):
-        pass
