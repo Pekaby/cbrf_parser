@@ -16,8 +16,7 @@ Notify.init("Pekaby App")
 
 Notify.Notification.new(
     "It's time to course!",
-    parser.get_name() + ': ' + parser.get_course(),
-    "/home/dtron/image.png"
+    parser.get_name() + ': ' + parser.get_course()
 ).show()
 print(parser.get_course())
 
